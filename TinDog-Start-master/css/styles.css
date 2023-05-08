@@ -1,0 +1,183 @@
+body{
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+/* containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+/* navbar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    margin-bottom: 4.5rem;
+    padding: 0;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+
+
+/* download buttons */
+.dl-btn{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* title section */
+#title{
+    color: white;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+/* title image */
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-bottom: -60%;
+    position: absolute;
+    right: 30%;
+}
+.tit-img{
+    position: relative;
+}
+
+
+/* features */
+#features{
+    position: relative;
+}
+
+.feature-box{
+padding: 5%;
+}
+
+.feature-title{
+    font-weight: 900;
+}
+
+
+/* feature-icon */
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+/* testimonials */
+#testimonials{
+    color: #ffff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press{
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing */
+#pricing{
+padding: 100px;
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+/* cta section */
+#cta{
+    color: #ffff;
+}
+
+/* footer */
+#footer{
+    padding: 7% 15%;
+}
+.footi{
+    margin: 2%;
+}
+.btn-cta{
+    margin: 5% 3%;
+}
+@media (max-width:1028px){
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+/* heading */
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+
+/* sections */
+.colored-section{
+    background-color:#DC4C64 ;
+}
+
+.white-section{
+    background-color: #ffff;
+}
